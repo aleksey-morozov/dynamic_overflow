@@ -17,12 +17,18 @@
             left: 90%;
             top: 90%;
         }
+        
+        .iframe { 
+            color: white;
+            text-align: center;
+            font-weight: bold;
+        }
 
         .iframe#first {
             height: 850px;
             width: 300px;
             background-color: #42b983;
-            inset: auto 0px 50px auto;
+            inset: auto 0px 0px auto;
             position: fixed;
         }
 
@@ -30,7 +36,7 @@
             height: 850px;
             width: 200px;
             background-color: blue;
-            inset: auto 400px 0px auto;
+            inset: auto 350px 0px auto;
             position: fixed;
         }
 
@@ -70,8 +76,11 @@
     </style>
 </head>
 <body>
-    <div id="reminder" class="fruElement"></div>
-    <div id="socialProof" class="fruElement"></div>
+    <div id="reminder" class="fruElement">Reminder</div>
+    <div id="first" class="iframe">Enemy</div>
+    <div id="second" class="iframe">Enemy</div>
+    <div id="third" class="iframe">Enemy</div>
+<!--    <div id="socialProof" class="fruElement"></div>-->
     <script src="dist/index.js"></script>
 </body>
 </html>
