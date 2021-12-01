@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .widget {
+            height: 50px;
+            width: 100px;
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 5px;
+            position: absolute;
+            left: 90%;
+            top: 90%;
+        }
+
+        .iframe#first {
+            height: 850px;
+            width: 300px;
+            background-color: #42b983;
+            inset: auto 0px 50px auto;
+            position: fixed;
+        }
+
+        .iframe#second {
+            height: 850px;
+            width: 200px;
+            background-color: blue;
+            inset: auto 400px 0px auto;
+            position: fixed;
+        }
+
+        .iframe#third {
+            height: 130px;
+            width: 200px;
+            background-color: red;
+            inset: auto 600px 0px auto;
+            position: fixed;
+        }
+
+        #reminder {
+            height: 100px;
+            width: 400px;
+            outline: 1px solid black;
+            position: fixed;
+            inset: auto 0px 0px auto;
+            z-index: 99999999;
+        }
+
+        #socialProof {
+            height: 100px;
+            width: 400px;
+            background: blueviolet;
+            position: fixed;
+            inset: auto 0px 0px auto;
+            z-index: 99999999;
+        }
+
+        #test {
+            height: 100px;
+            width: 100px;
+            outline: 1px solid red;
+            position: fixed;
+            inset: auto auto auto 400px;
+        }
+    </style>
+</head>
+<body>
+    <div id="reminder" class="fruElement"></div>
+    <div id="socialProof" class="fruElement"></div>
+    <script src="dist/index.js"></script>
+</body>
+</html>
